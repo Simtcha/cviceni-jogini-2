@@ -4,6 +4,7 @@ import './index.css';
 import { Header } from '../components/header/header';
 import { Intro } from '../components/intro/intro';
 import { Pose } from '../components/pose/pose';
+import obrazek from "../img/yoga-pose.jpg"
 
 
 const seznam = {
@@ -23,7 +24,7 @@ document.querySelector('#root').innerHTML = render(
   <div className="container">
     <Header title={seznam.title}/>
     <Intro heading={seznam.heading} text={seznam.text}/>
-    <Pose src={seznam.src}/>
+    <Pose src={obrazek}/>
   </div>
 );
 
